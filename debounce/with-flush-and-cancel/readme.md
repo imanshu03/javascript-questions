@@ -1,4 +1,4 @@
-## Question: How can you implement a debounce function in JavaScript that includes cancel and flush methods?(https://www.greatfrontend.com/questions/javascript/debounce-ii?format=javascript)
+## [Question: How can you implement a debounce function in JavaScript that includes cancel and flush methods?](https://www.greatfrontend.com/questions/javascript/debounce-ii?format=javascript)
 
 Implement a debounce function which accepts a callback function and a wait duration. Calling debounce() returns a function which has debounce invocations of the callback function following the behavior described above.
 
