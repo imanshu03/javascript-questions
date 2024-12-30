@@ -17,6 +17,8 @@ function merge(target, source) {
 }
 
 Object.polyfillAssign = function (target, ...sources) {
+  if (target == null) throw Error("Cannot convert undefined or null to object");
+
   target = Object(target);
 
   return sources.reduce((acc, source) => {
