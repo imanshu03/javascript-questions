@@ -9,6 +9,7 @@ Welcome to the **JavaScript Interview Questions** repository! This collection is
 - [Debounce](debounce/basic)
 - [Debounce with flush and canel](debounce/with-flush-and-cancel)
 - [Throttling](throttling/basic)
+- [Throtlling with leading and trailing](throttling/with-leading-trailing)
 - [Concurrent Task Manager](task-manager)
 
 ### Polyfills
