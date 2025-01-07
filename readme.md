@@ -4,8 +4,16 @@ Welcome to the **JavaScript Interview Questions** repository! This collection is
 
 ## List of questions:
 
+### Utilities
+
 - [Debounce](#/debounce/basic)
 - [Debounce with flush and canel](#/debounce/with-flush-and-cancel)
+- [Concurrent Task Manager](task-manager)
+
+### Polyfills
+
+- [Object.assign polyfill](polyfills/object-assign)
+- [Promise.all polyfill](polyfills/promise-all)
 
 ## Contributing
 
