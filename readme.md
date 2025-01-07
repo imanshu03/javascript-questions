@@ -2,39 +2,10 @@
 
 Welcome to the **JavaScript Interview Questions** repository! This collection is designed to help developers prepare for job interviews by providing a comprehensive set of questions and answers related to JavaScript.
 
-## Table of Contents
+## List of questions:
 
-- [Introduction](#introduction)
-- [Getting Started](#getting-started)
-- [Contributing](#contributing)
-
-## Introduction
-
-JavaScript is a versatile and widely-used programming language that powers the web. Whether you're a beginner or an experienced developer, mastering JavaScript concepts is crucial for technical interviews. This repository contains a curated list of interview questions covering various topics, including:
-
-- Basic Syntax and Operators
-- Data Types and Structures
-- Functions and Scope
-- Asynchronous JavaScript (Promises, Async/Await)
-- Object-Oriented Programming
-- ES6+ Features
-- DOM Manipulation
-- Error Handling
-- Best Practices
-
----
-
-## Getting Started
-
-To get started with this repository, follow these steps:
-
-1. **Clone the Repository**
-
-2. **Explore the Questions**
-   Browse through the directory to find categorized questions.
-
-3. **Practice**
-   Use the provided answers and explanations to enhance your understanding of each topic.
+- [Debounce](#/debounce/basic)
+- [Debounce with flush and canel](#/debounce/with-flush-and-cancel)
 
 ## Contributing
 
