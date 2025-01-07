@@ -7,7 +7,6 @@ Welcome to the **JavaScript Interview Questions** repository! This collection is
 - [Introduction](#introduction)
 - [Getting Started](#getting-started)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -32,7 +31,7 @@ To get started with this repository, follow these steps:
 1. **Clone the Repository**
 
 2. **Explore the Questions**
-   Browse through the `questions` directory to find categorized questions.
+   Browse through the directory to find categorized questions.
 
 3. **Practice**
    Use the provided answers and explanations to enhance your understanding of each topic.
@@ -48,10 +47,6 @@ We welcome contributions from the community! If you have any additional question
 5. Open a Pull Request.
 
 Please ensure that your contributions adhere to the project's guidelines.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
