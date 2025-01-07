@@ -12,8 +12,8 @@ Welcome to the **JavaScript Interview Questions** repository! This collection is
 
 ### Polyfills
 
-- [Object.assign polyfill](polyfills/object-assign)
-- [Promise.all polyfill](polyfills/promise-all)
+- [Object.assign](polyfills/object-assign)
+- [Promise.all](polyfills/promise-all)
 
 ## Contributing
 
