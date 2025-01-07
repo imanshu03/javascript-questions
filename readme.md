@@ -6,12 +6,12 @@ Welcome to the **JavaScript Interview Questions** repository! This collection is
 
 ### Utilities
 
-- [Debounce](debounce/basic)
-- [Debounce with flush and canel](debounce/with-flush-and-cancel)
-- [Throttling](throttling/basic)
-- [Throtlling with leading and trailing](throttling/with-leading-trailing)
-- [Concurrent Task Manager](task-manager)
-- [Mimic Browser History](mimic-browser-history)
+- [Debounce](utilities/debounce/basic)
+- [Debounce with flush and canel](utilities/debounce/with-flush-and-cancel)
+- [Throttling](utilities/throttling/basic)
+- [Throtlling with leading and trailing](utilities/throttling/with-leading-trailing)
+- [Concurrent Task Manager](utilities/task-manager)
+- [Browser History](utilities/mimic-browser-history)
 
 ### Polyfills
 
