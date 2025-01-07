@@ -7,6 +7,44 @@ Additionally, the debounce function comes with two extra methods:
 - cancel() method to cancel pending invocations.
 - flush() method to immediately invoke any delayed invocations.
 
+### Usage Example
+
+Here’s how you can use this enhanced debounce function:
+
+```js
+let i = 0;
+function increment() {
+  i++;
+}
+const debouncedIncrement = debounce(increment, 100);
+
+// t = 0: Call debouncedIncrement().
+debouncedIncrement(); // i = 0
+
+// t = 50: Cancel the delayed increment.
+debouncedIncrement.cancel();
+
+// t = 100: increment() was not invoked and i is still 0.
+```
+
+```js
+let i = 0;
+function increment() {
+  i++;
+}
+const debouncedIncrement = debounce(increment, 100);
+
+// t = 0: Call debouncedIncrement().
+debouncedIncrement(); // i = 0
+
+// t = 50: i is still 0 because 100ms have not passed.
+// t = 51:
+debouncedIncrement.flush(); // i is now 1 because flush causes() the callback to be immediately invoked.
+
+// t = 100: i is already 1. The callback has been called before
+// and won't be called again.
+```
+
 ### Answer: Implementation of a Debounce Function with Cancel and Flush Methods
 
 Here’s how you can implement a debounce function that meets these requirements:
@@ -71,41 +109,3 @@ function debounce(func, wait) {
 6. **Additional Methods**:
    - The `cancel` method allows users to cancel any pending invocations.
    - The `flush` method immediately invokes any delayed calls.
-
-### Usage Example
-
-Here’s how you can use this enhanced debounce function:
-
-```js
-let i = 0;
-function increment() {
-  i++;
-}
-const debouncedIncrement = debounce(increment, 100);
-
-// t = 0: Call debouncedIncrement().
-debouncedIncrement(); // i = 0
-
-// t = 50: Cancel the delayed increment.
-debouncedIncrement.cancel();
-
-// t = 100: increment() was not invoked and i is still 0.
-```
-
-```js
-let i = 0;
-function increment() {
-  i++;
-}
-const debouncedIncrement = debounce(increment, 100);
-
-// t = 0: Call debouncedIncrement().
-debouncedIncrement(); // i = 0
-
-// t = 50: i is still 0 because 100ms have not passed.
-// t = 51:
-debouncedIncrement.flush(); // i is now 1 because flush causes() the callback to be immediately invoked.
-
-// t = 100: i is already 1. The callback has been called before
-// and won't be called again.
-```
