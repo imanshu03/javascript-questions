@@ -11,6 +11,7 @@ Welcome to the **JavaScript Interview Questions** repository! This collection is
 - [Throttling](throttling/basic)
 - [Throtlling with leading and trailing](throttling/with-leading-trailing)
 - [Concurrent Task Manager](task-manager)
+- [Mimic Browser History](mimic-browser-history)
 
 ### Polyfills
 
