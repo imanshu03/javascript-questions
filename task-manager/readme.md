@@ -34,7 +34,7 @@ taskManager.addTask(createTask(3, 1000)); // Queued
 taskManager.addTask(createTask(4, 1500)); // Queued
 ```
 
-#### Expected output
+Expected output:
 
 ```js
 Task 1 started
