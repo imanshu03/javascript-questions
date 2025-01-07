@@ -17,7 +17,7 @@ window.addEventListener("resize", debouncedResize);
 
 In this example, the `handleResize` function will only be called once every 300 milliseconds while resizing the window, regardless of how many times the resize event fires.
 
-### Answer: Implementation of a Debounce Function
+## Answer
 
 Here’s how you can implement a debounce function in JavaScript:
 

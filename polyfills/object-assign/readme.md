@@ -2,6 +2,8 @@
 
 The `Object.assign` method is a standard way to copy values from one or more source objects to a target object. However, in scenarios where you need to support older environments that do not implement this method, creating a polyfill can be beneficial. Here’s how you can implement a polyfill for `Object.assign`.
 
+You can read more about [Object.assign on mdn](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)
+
 ### Usage Example
 
 Here’s how you can use the polyfilled `Object.polyfillAssign` function:
