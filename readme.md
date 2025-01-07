@@ -4,8 +4,8 @@ Welcome to the **JavaScript Interview Questions** repository! This collection is
 
 ## List of questions:
 
-- [Debounce](#/debounce/basic)
-- [Debounce with flush and canel](#/debounce/with-flush-and-cancel)
+- [Debounce](debounce/basic)
+- [Debounce with flush and canel](debounce/with-flush-and-cancel)
 
 ## Contributing
 
