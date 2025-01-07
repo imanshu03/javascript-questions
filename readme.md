@@ -6,8 +6,9 @@ Welcome to the **JavaScript Interview Questions** repository! This collection is
 
 ### Utilities
 
-- [Debounce](#/debounce/basic)
-- [Debounce with flush and canel](#/debounce/with-flush-and-cancel)
+- [Debounce](debounce/basic)
+- [Debounce with flush and canel](debounce/with-flush-and-cancel)
+- [Throttling](throttling/basic)
 - [Concurrent Task Manager](task-manager)
 
 ### Polyfills
