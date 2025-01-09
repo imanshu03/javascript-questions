@@ -7,7 +7,7 @@ Welcome to the **JavaScript Interview Questions** repository! This collection is
 ### Utilities
 
 - [Debounce](utilities/debounce/basic)
-- [Debounce with flush and canel](utilities/debounce/with-flush-and-cancel)
+- [Debounce with flush and cancel](utilities/debounce/with-flush-and-cancel)
 - [Throttling](utilities/throttling/basic)
 - [Throtlling with leading and trailing](utilities/throttling/with-leading-trailing)
 - [Concurrent Task Manager](utilities/task-manager)
