@@ -17,6 +17,9 @@ Welcome to the **JavaScript Interview Questions** repository! This collection is
 
 - [Object.assign](polyfills/object-assign)
 - [Promise.all](polyfills/promise-all)
+- [Promise.allSettled](polyfills/promise-all-settled)
+- [Promise.any](polyfills/promise-any)
+- [Promise.race](polyfills/promise-race)
 
 ## Contributing
 
