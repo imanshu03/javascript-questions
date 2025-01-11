@@ -24,8 +24,6 @@ function partitionStart(array, start, end) {
   return right;
 }
 
-function partitionMid(array, start, end) {}
-
 function partitionEnd(array, start, end) {
   const pivot = end;
   let left = start,
@@ -56,9 +54,8 @@ function partitionEnd(array, start, end) {
 
 function quickSort(array, start = 0, end = array.length - 1) {
   if (start < end) {
-    // const pivot = partitionStart(array, start, end);
-    // const pivot = partitionMid(array, start, end);
-    const pivot = partitionEnd(array, start, end);
+    const pivot = partitionStart(array, start, end);
+    // const pivot = partitionEnd(array, start, end);
     quickSort(array, start, pivot - 1);
     quickSort(array, pivot + 1, end);
   }
