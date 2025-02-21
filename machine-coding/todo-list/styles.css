@@ -1,0 +1,50 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  padding: 10rem;
+  box-sizing: border-box;
+}
+
+.todo-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+
+.todo-header {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+
+#todo-input {
+  margin-right: 10px;
+  flex-grow: 1;
+  padding: 8px;
+}
+
+#todo-list {
+  width: 100%;
+}
+
+#todo-info {
+  text-align: right;
+}
+
+.todo-item {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  column-gap: 10px;
+  padding: 10px;
+  border: 1px solid #000000;
+  cursor: pointer;
+}
